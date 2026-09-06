@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bisesh Ghimire — BCA student and web developer portfolio.">
+  <meta name="theme-color" content="#0b0d12">
+  <title>Bisesh Ghimire | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span>BG</span><b>Bisesh</b></a>
+      <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+      <button class="theme-btn" aria-label="Toggle theme">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> Available for opportunities</p>
+        <h1>Building digital experiences that <em>solve real problems.</em></h1>
+        <p class="hero-text">I'm <strong>Bisesh Ghimire</strong>, a BCA student and developer focused on practical web applications, clean interfaces, databases, and real-world problem solving.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Let's connect</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>5+</strong><span>Projects</span></div>
+          <div><strong>Web</strong><span>Development</span></div>
+          <div><strong>BCA</strong><span>Student</span></div>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="orb"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><label>bisesh.js</label></div>
+          <pre><code><span class="kw">const</span> developer = {
+  name: <span class="str">"Bisesh Ghimire"</span>,
+  focus: <span class="str">"Full-Stack Web"</span>,
+  stack: [<span class="str">"PHP"</span>, <span class="str">"JS"</span>, <span class="str">"MySQL"</span>],
+  mindset: <span class="str">"Build. Learn. Improve."</span>
+};
+
+developer.<span class="fn">create</span>();</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head reveal"><p class="eyebrow">01 — About</p><h2>A developer who likes turning ideas into working products.</h2></div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I’m a Bachelor of Computer Applications student from Nepal with a strong interest in software and web development. I enjoy taking an idea from a rough concept to a functional application with a useful interface and a reliable database.</p>
+          <p>My projects have included eCommerce, food ordering, travel booking, administration dashboards, payment workflows, and a disaster-management platform concept. I’m continuously improving my skills by building instead of only studying theory.</p>
+          <div class="pill-row"><span>Problem Solver</span><span>Fast Learner</span><span>Project Builder</span><span>Tech Enthusiast</span></div>
+        </div>
+        <div class="about-panel reveal">
+          <div class="panel-line"><span>Location</span><b>Nepal 🇳🇵</b></div>
+          <div class="panel-line"><span>Education</span><b>BCA</b></div>
+          <div class="panel-line"><span>Primary focus</span><b>Web Development</b></div>
+          <div class="panel-line"><span>Currently</span><b>Learning & Building</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head reveal"><p class="eyebrow">02 — Skills</p><h2>Tools I use to bring projects to life.</h2></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-icon">⌘</span><h3>Frontend</h3><p>HTML5, CSS3, JavaScript, Bootstrap 5, responsive UI, AJAX</p><div class="bar"><i style="width:88%"></i></div></article>
+          <article class="skill-card reveal"><span class="skill-icon">{ }</span><h3>Backend</h3><p>PHP, Java, JSP, Servlets, application logic and APIs</p><div class="bar"><i style="width:82%"></i></div></article>
+          <article class="skill-card reveal"><span class="skill-icon">⌁</span><h3>Database</h3><p>MySQL, phpMyAdmin, relational schemas, queries and data workflows</p><div class="bar"><i style="width:84%"></i></div></article>
+          <article class="skill-card reveal"><span class="skill-icon">◈</span><h3>Development</h3><p>Git/GitHub, VS Code, XAMPP, debugging, project architecture</p><div class="bar"><i style="width:78%"></i></div></article>
+        </div>
+        <div class="tech-cloud reveal"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>Java</span><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JSP</span><span>Servlets</span><span>Git</span><span>GitHub</span><span>AJAX</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head reveal"><p class="eyebrow">03 — Featured work</p><h2>Projects built around real use cases.</h2></div>
+      <div class="projects-grid">
+        <article class="project featured reveal">
+          <div class="project-number">01</div><div class="project-content"><p class="project-type">eCommerce Platform</p><h3>BG Mart</h3><p>A full eCommerce platform with authentication, product management, cart and checkout flows, Nepali payment integration concepts, orders and an admin dashboard.</p><div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span></div><a href="#" class="project-link" data-project="BG Mart">View project ↗</a></div>
+        </article>
+        <article class="project reveal"><div class="project-number">02</div><div class="project-content"><p class="project-type">Emergency Response</p><h3>ResQ Nepal</h3><p>A disaster-management platform concept designed to connect citizens, responders, resources and emergency information in one system.</p><div class="tags"><span>Web App</span><span>Maps</span><span>Database</span></div><a href="#" class="project-link" data-project="ResQ Nepal">View project ↗</a></div></article>
+        <article class="project reveal"><div class="project-number">03</div><div class="project-content"><p class="project-type">Food Technology</p><h3>Mitho Burger Hut</h3><p>Online food ordering and reservation system with menu management, cart, checkout, orders and payment workflow concepts.</p><div class="tags"><span>PHP</span><span>AJAX</span><span>MySQL</span></div><a href="#" class="project-link" data-project="Mitho Burger Hut">View project ↗</a></div></article>
+        <article class="project reveal"><div class="project-number">04</div><div class="project-content"><p class="project-type">Travel Booking</p><h3>TourTravel</h3><p>A travel package and booking system featuring packages, itineraries, booking forms and an administration area.</p><div class="tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div><a href="#" class="project-link" data-project="TourTravel">View project ↗</a></div></article>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="container">
+        <div class="section-head reveal"><p class="eyebrow">04 — Journey</p><h2>Learning through academics and projects.</h2></div>
+        <div class="timeline reveal">
+          <div class="timeline-item"><span class="time-dot"></span><div><p class="muted">Current</p><h3>Bachelor of Computer Applications (BCA)</h3><p>Building a practical foundation in programming, databases, software development and information systems.</p></div></div>
+          <div class="timeline-item"><span class="time-dot"></span><div><p class="muted">Project-focused learning</p><h3>Web & Application Development</h3><p>Developing academic and personal projects using PHP, JavaScript, MySQL, Java and related technologies.</p></div></div>
+          <div class="timeline-item"><span class="time-dot"></span><div><p class="muted">Next chapter</p><h3>Growing as a Software Developer</h3><p>Deepening full-stack skills, system design, APIs, deployment and modern development practices.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">05 — Contact</p>
+        <h2>Have an idea? Let's build something useful.</h2>
+        <p>Whether it’s a project, collaboration, internship opportunity, or just a conversation about technology, feel free to reach out.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:your.email@example.com">Email me ↗</a>
+          <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><span>© <span id="year"></span> Bisesh Ghimire</span><span>Designed & built with curiosity.</span></footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-inner"><button class="modal-close" aria-label="Close">×</button><p class="eyebrow">Project</p><h2 id="modalTitle"></h2><p id="modalText"></p><p class="muted">Replace the project link in <code>index.html</code> with your GitHub repository or live demo.</p></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
